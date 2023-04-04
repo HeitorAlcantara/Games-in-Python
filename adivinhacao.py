@@ -1,4 +1,4 @@
-import random as Random
+import random
 
 def jogar_adivinhacao():
     print("********************************")
@@ -7,7 +7,7 @@ def jogar_adivinhacao():
     print("")
 
 
-    random_number = Random.randrange(1,101)
+    random_number = random.randrange(1,101)
     min = 1
     max = 100
 
